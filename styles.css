@@ -1,0 +1,74 @@
+body {
+	width:700px;
+	font-family: Arial;
+}
+
+/* Form Header */
+
+.formHeader {
+	font-size:30px;
+	text-align: center;
+	padding: 20px 0;
+}
+
+/* Impurities Data */
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	height:30px;
+}
+
+input[type=text] {
+	border:1px solid #d9d9d9;
+	border-radius: 4px;
+}
+
+th {
+	font-size: 1.05em;
+	font-family: Arial;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #d9d9d9;
+	border-top: 1px solid #d9d9d9;
+}
+
+.column1 {
+	width:275px;
+}
+
+.column2, .column3 {
+	text-align: center;
+	width:125px;
+}
+
+.column4 {
+	text-align: center;
+	width:100px;
+}
+
+.peakArea, .blankArea {
+	width:100px;
+}
+
+.row1 input {
+	background-color: #e6f2ff;
+}
+
+.row1 .column1 {
+	color: #0063cc;
+	font-weight: bold;
+}
+
+.row1 .column4 {
+	color: #d9d9d9;
+}
+
+.lastRow .column1 {
+	font-weight: bold;	
+}
+
+.lastRow .column4 {
+	border-top: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+}
