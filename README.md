@@ -5,7 +5,7 @@
 **Summary:** This app takes input from a lab analyst (the intended app user) in the form of impurity peak areas, performs calculations on it, and reports the results as a number or text (e.g., percentage to 2 decimal places, ‘not detected’ or ‘less than reporting limit’) depending on the value of the result. It also displays the total impurities after filtering out numbers that are less than the reporting limit.
 
 **Screenshot of app in use:**
-<img src="screenshots/app-in-use.jpg" alt="app-in-use-screenshot"/>
+<img src="screenshots/app-in-use.jpg" alt="app-in-use-screenshot" width="50%"/>
 
 **Notes and rules for the calculations:**
 1. Aminobutylphenol, Raspberry Ketone (listed in regular black text in the app) are impurities.
