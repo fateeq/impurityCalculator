@@ -1,6 +1,6 @@
 # Impurity Calculator
-## A self-initiated JavaScript app created for personal use to replace a complex spreadsheet
-**Summary:** The app takes input from a lab analyst (the intended app user) in the form of impurity peak areas, performs calculations on it, and reports the results as a number or text (e.g., percentage to 2 decimal places, ‘not detected’ or ‘less than reporting limit’) depending on the value of the result, and also displays the total impurities after filtering out numbers that are less than the reporting limit.
+## A JavaScript app that calculates chemical impurities based on the user’s input.
+**Summary:** This app takes input from a lab analyst (the intended app user) in the form of impurity peak areas, performs calculations on it, and reports the results as a number or text (e.g., percentage to 2 decimal places, ‘not detected’ or ‘less than reporting limit’) depending on the value of the result. It also displays the total impurities after filtering out numbers that are less than the reporting limit.
 
 **Notes and rules for the calculations:**
 1. Aminobutylphenol, Raspberry Ketone (listed in regular black text in the app) are impurities.
