@@ -4,6 +4,9 @@
 
 **Summary:** This app takes input from a lab analyst (the intended app user) in the form of impurity peak areas, performs calculations on it, and reports the results as a number or text (e.g., percentage to 2 decimal places, ‘not detected’ or ‘less than reporting limit’) depending on the value of the result. It also displays the total impurities after filtering out numbers that are less than the reporting limit.
 
+**Screenshot of app in use:**
+<img src="screenshots/app-in-use.jpg" alt="app-in-use-screenshot"/>
+
 **Notes and rules for the calculations:**
 1. Aminobutylphenol, Raspberry Ketone (listed in regular black text in the app) are impurities.
 2. For each impurity, a % Impurity is calculated as follows: **% Impurity = (Corrected peak area of the impurity/Corrected peak area of Ractopamine in Solution B) x 100%**, where, **corrected peak area = peak area - blank peak area**.
