@@ -1,5 +1,7 @@
 # Impurity Calculator
 ## A JavaScript app that calculates chemical impurities based on the user’s input.
+**App Link:** https://impurity-calculator.herokuapp.com/index.html
+
 **Summary:** This app takes input from a lab analyst (the intended app user) in the form of impurity peak areas, performs calculations on it, and reports the results as a number or text (e.g., percentage to 2 decimal places, ‘not detected’ or ‘less than reporting limit’) depending on the value of the result. It also displays the total impurities after filtering out numbers that are less than the reporting limit.
 
 **Notes and rules for the calculations:**
