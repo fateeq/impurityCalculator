@@ -137,3 +137,11 @@ th {
 .mainList {
 	padding: 0 0 10px 10px;
 }
+
+/* About Page */
+
+#about {
+width:700px;
+padding-top: 100px;
+margin:auto;
+}
