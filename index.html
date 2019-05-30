@@ -1,94 +1,122 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>USP Ractopamine Impurities</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+    <title>USP Ractopamine Impurities</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
-	<form>
-		
-	<!-- Form Header -->
-		
-		<div class="formHeader">Ractopamine Impurity Calculator</div>
-	
-	<!-- Impurities Data -->
-
-	<table>
-		<tr>
-			<th>Impurity Name</th>
-			<th>Blank Area</th>
-			<th>Peak Area</th>
-			<th>% Impurity</th>
-		</tr>
-		<tr class="row1">
-			<td class="column1">Ractopamine - from Solution B</td>
-			<td class="column2"><input class="blankArea" type="text"></td>
-			<td class="column3"><input class="peakArea" type="text"></td>
-			<td class="column4">N/A</td>
-		</tr>
-		<tr>
-			<td class="column1">Aminobutylphenol</td>
-			<td class="column2"><input class="blankArea" type="text"></td>
-			<td class="column3"><input class="peakArea" type="text"></td>
-			<td class="column4"></td>
-		</tr>
-		<tr>
-			<td class="column1">Raspberry Ketone</td>
-			<td class="column2"><input class="blankArea" type="text"></td>
-			<td class="column3"><input class="peakArea" type="text"></td>
-			<td class="column4"></td>
-		</tr>
-		<tr>
-			<td class="column1">Ractopamine Intermediate</td>
-			<td class="column2"><input class="blankArea" type="text"></td>
-			<td class="column3"><input class="peakArea" type="text"></td>
-			<td class="column4"></td>
-		</tr>
-		<tr>
-			<td class="column1">Deoxyractopamine</td>
-			<td class="column2"><input class="blankArea" type="text"></td>
-			<td class="column3"><input class="peakArea" type="text"></td>
-			<td class="column4"></td>
-		</tr>
-		<tr>
-			<td class="column1">Ractopamine-O-Methyl 1 </td>
-			<td class="column2"><input class="blankArea" type="text"></td>
-			<td class="column3"><input class="peakArea" type="text"></td>
-			<td class="column4"></td>
-		</tr>
-		<tr>
-			<td class="column1">Ractopamine-O-Methyl 2 </td>
-			<td class="column2"><input class="blankArea" type="text"></td>
-			<td class="column3"><input class="peakArea" type="text"></td>
-			<td class="column4"></td>
-		</tr>
-		<tr>
-			<td class="column1">Ractopamine Dialcohol</td>
-			<td class="column2"><input class="blankArea" type="text"></td>
-			<td class="column3"><input class="peakArea" type="text"></td>
-			<td class="column4"></td>
-		</tr>
-		<tr>
-			<td class="column1">Ractopamine Cyclohexyl Analog</td>
-			<td class="column2"><input class="blankArea" type="text"></td>
-			<td class="column3"><input class="peakArea" type="text"></td>
-			<td class="column4"></td>
-		</tr>
-		<tr>
-			<td class="column1">Ractopamine Dimer</td>
-			<td class="column2"><input class="blankArea" type="text"></td>
-			<td class="column3"><input class="peakArea" type="text"></td>
-			<td class="column4"></td>
-		</tr>
-		<tr class="lastRow">
-			<td class="column1">Total Impurities</td>
-			<td class="column2"></td>
-			<td class="column3"></td>
-			<td class="column4"></td>
-		</tr>
-	</table>
-
-</form>
-<script type="text/javascript" src="function.js"></script>
+    <nav class="navbar">
+        <ul>
+            <li><a href="default.asp">Home</a></li>
+            <!-- <li style="float:right"><a href="contact.asp">About</a></li> -->
+            <!-- <li style="float:right"><a href="about.asp">Docs</a></li> -->
+        </ul>
+    </nav>
+    <div id="main">
+        <form>
+            <!-- Form Header -->
+            <div class="formHeader">USP Ractopamine Impurities Calculator</div>
+            <!-- Impurities Data -->
+            <table>
+                <tr>
+                    <th>Impurity Name</th>
+                    <th>Blank Area</th>
+                    <th>Peak Area</th>
+                    <th>% Impurity</th>
+                </tr>
+                <tr class="row1">
+                    <td class="column1">Ractopamine - from Solution B</td>
+                    <td class="column2"><input class="blankArea" type="text"></td>
+                    <td class="column3"><input class="peakArea" type="text"></td>
+                    <td class="column4">N/A</td>
+                </tr>
+                <tr>
+                    <td class="column1">Aminobutylphenol</td>
+                    <td class="column2"><input class="blankArea" type="text"></td>
+                    <td class="column3"><input class="peakArea" type="text"></td>
+                    <td class="column4"></td>
+                </tr>
+                <tr>
+                    <td class="column1">Raspberry Ketone</td>
+                    <td class="column2"><input class="blankArea" type="text"></td>
+                    <td class="column3"><input class="peakArea" type="text"></td>
+                    <td class="column4"></td>
+                </tr>
+                <tr>
+                    <td class="column1">Ractopamine Intermediate</td>
+                    <td class="column2"><input class="blankArea" type="text"></td>
+                    <td class="column3"><input class="peakArea" type="text"></td>
+                    <td class="column4"></td>
+                </tr>
+                <tr>
+                    <td class="column1">Deoxyractopamine</td>
+                    <td class="column2"><input class="blankArea" type="text"></td>
+                    <td class="column3"><input class="peakArea" type="text"></td>
+                    <td class="column4"></td>
+                </tr>
+                <tr>
+                    <td class="column1">Ractopamine-O-Methyl</td>
+                    <td class="column2"><input class="blankArea" type="text"></td>
+                    <td class="column3"><input class="peakArea" type="text"></td>
+                    <td class="column4"></td>
+                </tr>
+                <tr>
+                    <td class="column1">Ractopamine Dialcohol</td>
+                    <td class="column2"><input class="blankArea" type="text"></td>
+                    <td class="column3"><input class="peakArea" type="text"></td>
+                    <td class="column4"></td>
+                </tr>
+                <tr>
+                    <td class="column1">Ractopamine Cyclohexyl Analog</td>
+                    <td class="column2"><input class="blankArea" type="text"></td>
+                    <td class="column3"><input class="peakArea" type="text"></td>
+                    <td class="column4"></td>
+                </tr>
+                <tr>
+                    <td class="column1">Ractopamine Dimer</td>
+                    <td class="column2"><input class="blankArea" type="text"></td>
+                    <td class="column3"><input class="peakArea" type="text"></td>
+                    <td class="column4"></td>
+                </tr>
+                <tr class="lastRow">
+                    <td class="column1">Total Impurities</td>
+                    <td class="column2"></td>
+                    <td class="column3"></td>
+                    <td class="column4"></td>
+                </tr>
+            </table>
+        </form>
+        <div id="instructions">
+            <h1>Instructions</h1>
+            <hr>
+            <h5>General</h5>
+            <p>
+                This application accepts peak areas as the raw data and displays the calculated percent impurities as they would be reported on a Certificate of Analysis. The calculations are performed as per the imputirities test in the USP monograph for Ractopamine, and are tailored to company requirements.
+            </p>
+            <!-- <p>For more information, see <a href="">Docs</a>.</p> -->
+            <h5>Start using</h5>
+            <p>
+                To use the calculator, enter numerical values starting from the top left cell. Hit "enter" or "tab" to move to the next cell. The calculated values will appear under the % Impurity column.
+            </p>
+            <h5>Rules for calculations</h5>
+            <ol>
+                <li class="mainList">Aminobutylphenol, Raspberry Ketone, etc. (listed in regular black text in the first column in the calculator) are names of impurities.</li>
+                <li class="mainList">For each impurity, the % Impurity is calculated as follows:<br>% Impurity = (Corrected peak area of the impurity/Corrected peak area of Ractopamine in Solution B) x 100%, where, corrected peak area = peak area - blank peak area.</li>
+                <li class="mainList">You must press the 'Tab' or 'Enter' key after entering a number in any cell to accept its value. Typing a value in a cell and clicking the next cell will not work.</li>
+                <li class="mainList">No impurity calculations are required for 'Ractopamine - from Solution B' (formatted in blue bold text) as it is only a reference in the calculations and not an impurity.</li>
+                <li class="mainList">The results of the % Impurities are displayed as follows:<br>
+                    <ul>
+                        <li>Zero or negative: "ND" (not detected)</li>
+                        <li>Between 0% and 0.09%: "< RL" (less than reporting limit)</li>
+                        <li>Above 0.09%: reported as a percent to 2 decimal places</li>
+                    </ul>
+                <li class="mainList">The sum of the % Impurities are displayed in the last 'Total Impurities' cell, only if it is above 0.09%. The Total Impurities result is reported to 1 decimal place.</li>
+            </ol>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
 </body>
-</html>	
+
+</html>

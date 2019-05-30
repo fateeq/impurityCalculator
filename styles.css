@@ -1,74 +1,139 @@
 body {
-	width:700px;
-	font-family: Arial;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #343a40;
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: rgba(255, 255, 255, .5);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+/* Main */
+
+#main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Form */
+
+form {
+    width: 635px;
+    height: 456px;
+    margin: 50px;
+    padding: 25px;
+    border: 2px solid #f2f2f2;
 }
 
 /* Form Header */
 
 .formHeader {
-	font-size:30px;
-	text-align: center;
-	padding: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
 }
 
 /* Impurities Data */
 table {
-	border-collapse: collapse;
+    border-collapse: collapse;
 }
 
-th, td {
-	height:30px;
+th,
+td {
+    height: 30px;
 }
 
 input[type=text] {
-	border:1px solid #d9d9d9;
-	border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
 }
 
 th {
-	font-size: 1.05em;
-	font-family: Arial;
-	background-color: #f2f2f2;
-	border-bottom: 1px solid #d9d9d9;
-	border-top: 1px solid #d9d9d9;
+    font-size: 1.05em;
+    font-family: Arial;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #d9d9d9;
 }
 
 .column1 {
-	width:275px;
+    width: 275px;
 }
 
-.column2, .column3 {
-	text-align: center;
-	width:125px;
+.column2,
+.column3 {
+    text-align: center;
+    width: 125px;
 }
 
 .column4 {
-	text-align: center;
-	width:100px;
+    text-align: center;
+    width: 100px;
 }
 
-.peakArea, .blankArea {
-	width:100px;
+.peakArea,
+.blankArea {
+    width: 100px;
 }
 
 .row1 input {
-	background-color: #e6f2ff;
+    background-color: #e6f2ff;
 }
 
 .row1 .column1 {
-	color: #0063cc;
-	font-weight: bold;
+    color: #0063cc;
+    font-weight: bold;
 }
 
 .row1 .column4 {
-	color: #d9d9d9;
+    color: #d9d9d9;
 }
 
 .lastRow .column1 {
-	font-weight: bold;	
+    font-weight: bold;
 }
 
 .lastRow .column4 {
-	border-top: 1px solid #d9d9d9;
-	border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+/* Instructions */
+
+#instructions {
+    background-color: rgb(239, 247, 255);
+    padding: 25px;
+    width: 675px;
+}
+
+#instructions ol {
+	padding-left: 20px;
+}
+
+.mainList {
+	padding: 0 0 10px 10px;
 }

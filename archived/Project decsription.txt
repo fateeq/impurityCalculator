@@ -1,0 +1,17 @@
+The Problem
+
+Before releasing a product for sale, one of the tests that had to be performed on the product was measuring the levels of impurities in it and ensuring they were within specifications. The test was performed by lab analysts using a chemical instrument, which printed off raw data in the form of peak areas. The analysts would perform calculations on the raw data using a spreadsheet to get the impurity levels, then transcribe the results onto a specification sheet. The QA department (and sometimes me) reviewed the data before approving it.
+
+During the QA, several mistakes were always discovered. These mistakes were initiated throughout the data’s journey, from the raw data being manually typed into the spreadsheet, the calculations performed in the spreadsheet, and handwriting the results onto the specification sheet. Most of the issues arose within the spreadsheet itself, for example, not using the correct cell references, or forgetting to exclude impurities that were less than reporting limits from the total impurities calculations, or reporting numbers to incorrect decimal places.
+
+It was a frustrating process that I wanted to do something about.
+                   
+A solution that turned out to be another problem
+
+A simple solution was to create a spreadsheet myself and lock all cells except where raw data had to be input. It took me a few hours to finally create a spreadsheet that looked decent and could perform all the calculations I needed it to. Over the next few weeks, as I started to validate my own spreadsheet with data received from the lab, I noticed several errors that I constantly kept correcting, errors such as not copying a formula over from one cell to the next or referencing the wrong cell. I found the whole process very tedious and working with cells very limiting. I ended up keeping the spreadsheet to myself and didn’t share it with other reviewers, as it seemed too complicated to explain it to colleagues who often got frustrated with technology anyway.  
+
+A better solution
+
+Trying to perform the above calculations in a spreadsheet is one of the big problems that inspired me to get back into programming. I really wanted to create a clean-looking application that takes input from the user, performs calculations behind the scenes, and neatly outputs the correct results. I started building the Impurity Calculator at this point. It was the perfect opportunity to practice working with variables, if-else statements, loops, and arrays, as well as a bit of HTML and CSS.
+
+Creating the JavaScript application was not easier than creating the Excel spreadsheet, but the product looked a lot cleaner and gave me more confidence as it had less errors.
